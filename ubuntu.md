@@ -15,6 +15,11 @@ sudo apt-get dist-upgrade
 
 #Install Guake terminal with tmux
 
+#Install KDE connection manager
+sudo apt-get install plasma-nm
+sudo apt-get update
+sudo kde-nm-connection-editor
+
 #Ubuntu Tweak tools
 
 #Install ubuntu after install
