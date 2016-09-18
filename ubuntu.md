@@ -6,6 +6,9 @@ sudo apt-get update   &&    sudo apt-get upgrade  &&   sudo apt-get dist-upgrade
 
 #Install Guake terminal with tmux
 
+#Install Open SSH Server (for crypto)
+sudo apt-get install openssh-server
+
 #Install KDE connection manager
 sudo apt-get install plasma-nm   &&   sudo apt-get update   &&   sudo kde-nm-connection-editor
 
