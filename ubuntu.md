@@ -1,24 +1,13 @@
-#Update package list from repos
+#Update and upgrade package plus distro upgrade 
 
-sudo apt-get update 
-
-#Upgrade packages 
-
-sudo apt-get upgrade
-
-
-#Upgrade distro 
-sudo apt-get dist-upgrade
-
+sudo apt-get update   &&    sudo apt-get upgrade  &&   sudo apt-get dist-upgrade
 
 #Install Kupfer -Seach tool (Ctrl + space)
 
 #Install Guake terminal with tmux
 
 #Install KDE connection manager
-sudo apt-get install plasma-nm
-sudo apt-get update
-sudo kde-nm-connection-editor
+sudo apt-get install plasma-nm   &&   sudo apt-get update   &&   sudo kde-nm-connection-editor
 
 #Ubuntu Tweak tools
 
