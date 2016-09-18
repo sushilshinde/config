@@ -1,1 +1,1 @@
-#General Desktop Admin Documentation 
+#General Desktop Configuration Documentation 
