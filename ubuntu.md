@@ -10,7 +10,16 @@ sudo apt-get update   &&    sudo apt-get upgrade  &&   sudo apt-get dist-upgrade
 sudo apt-get install openssh-server
 
 #Install KDE connection manager
-sudo apt-get install plasma-nm   &&   sudo apt-get update   &&   sudo kde-nm-connection-editor
+sudo apt-get install plasma-nm   &&   sudo apt-get update 
+
+Launch 
+
+kde-nm-connection-editor
+
+or 
+
+kde5-nm-connection-editor
+
 
 #Ubuntu Tweak tools
 
