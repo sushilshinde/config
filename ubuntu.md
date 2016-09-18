@@ -9,7 +9,7 @@ sudo apt-get update   &&    sudo apt-get upgrade  &&   sudo apt-get dist-upgrade
 #Install Open SSH Server (for crypto)
 sudo apt-get install openssh-server
 
-#Install KDE connection manager
+#Install KDE connection manager(for hotspot)
 sudo apt-get install plasma-nm   &&   sudo apt-get update 
 
 Launch 
