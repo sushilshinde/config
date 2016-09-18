@@ -36,7 +36,7 @@ Use latest version(not for server, on server installations should be at root lev
 http://abdelraoof.com/blog/2014/11/11/install-nodejs-without-admin-rights/
 
 #Install Linux containers 
-(https://linuxcontainers.org/lxc/getting-started/)
+(https://linuxcontainers.org/lxc/getting-started/) also (https://linuxcontainers.org/lxd/introduction/)
 
 sudo apt-get install lxc
 
