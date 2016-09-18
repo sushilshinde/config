@@ -23,8 +23,9 @@ sudo apt-get dist-upgrade
 
 #Instal Brackets, Atom and Sublime
 
-#Install nodejs in outside of root using NVM, use latest version(not for server, on server installations should be at root level)
+#Install nodejs in outside of root using NVM
 
+Use latest version(not for server, on server installations should be at root level)
 http://abdelraoof.com/blog/2014/11/11/install-nodejs-without-admin-rights/
 
 
