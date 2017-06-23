@@ -1,4 +1,4 @@
-## The second largest heading 
+## Automate software installations and updatation using bash script
 
 Method 1: Installing "install-softwares" as system command
 
