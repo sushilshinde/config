@@ -6,6 +6,7 @@
 Method 1: Installing updateme as system command
 
 Step 1 :  Download updateme
+
 Step 2 :  Change file permission to executable and make it a command
           
           $chmod +x updateme && sudo cp updateme /usr/bin
