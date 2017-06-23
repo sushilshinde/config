@@ -5,6 +5,7 @@ Method 1: Installing "install-softwares" as system command
 Step 1 : Download install-softwares
 
 Step 2 : Change file permission to executable and make it a command
+
 `
 $chmod +x install-softwares && sudo cp install-softwares /usr/bin
 `
