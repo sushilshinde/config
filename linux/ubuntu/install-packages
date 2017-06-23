@@ -34,6 +34,14 @@ sudo npm install -g @angular/cli
 sudo npm install -g express 
 sudo npm install -g nodemon 
 
+#Installling Servers
+echo -e \\nInstalling Servers...............................\\n
+
+sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/servers | sudo -E bash -
+
+
+
+
 
 
 echo -e \\nCleaning...........................................\\n
