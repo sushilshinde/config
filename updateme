@@ -6,7 +6,8 @@ sudo apt-get clean
 
 # Add PPAs
 echo -e \\nAdding PPAs.......................................\\n
-sudo add-apt-repository -y ppa:kupfer-team/ppa 
+sudo add-apt-repository -y ppa:kupfer-team/ppa ppa:numix/ppa
+ 
 
 # System update
 echo -e \\nUpdating List......................................\\n
@@ -23,7 +24,7 @@ sudo apt-get -y dist-upgrade
 
 echo -e \\nInstalling Softwares...............................\\n
 
-sudo apt-get install -y kupfer synaptic plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer chromium-browser python-software-properties 
+sudo apt-get install -y kupfer synaptic plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme numix-icon-theme-circle numix-wallpaper-* 
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
