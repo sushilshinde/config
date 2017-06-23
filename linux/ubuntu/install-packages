@@ -1,6 +1,6 @@
 #!/bin/bash
 #run with $ yes | script
-echo -e \\n\NYOU ARE RUNNING FRESH INSTALLATIONS OF PACKAGES\N
+echo -e \\n\NRUNNING FRESH PACKAGES INSTALLATION \\N
 echo -e \\nCleaning Cache.....................................
 sudo apt-get clean 
 
