@@ -1,0 +1,23 @@
+#!/bin/bash
+#run with $ yes | script
+
+echo -e \\nCleaning Cache.....................................
+sudo apt-get clean 
+
+# System update
+echo -e \\nUpdating List......................................\\n
+sudo apt-get update 
+
+echo -e \\nUpgrading packages.................................\\n
+sudo apt-get -y upgrade 
+
+echo Updating Distribution....................................\\n
+sudo apt-get -y dist-upgrade 
+
+
+# Install Softwares
+
+sudo npm install -g npm
+
+echo -e \\nCleaning...........................................\\n
+sudo apt-get -y purge
