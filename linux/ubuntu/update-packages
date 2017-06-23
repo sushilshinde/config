@@ -1,6 +1,8 @@
 #!/bin/bash
 #run with $ yes | script
 
+echo -e \\nRUNNING PACKAGE UPDATE SCRIPT\n
+
 echo -e \\nCleaning Cache.....................................
 sudo apt-get clean 
 
@@ -14,9 +16,7 @@ sudo apt-get -y upgrade
 echo Updating Distribution....................................\\n
 sudo apt-get -y dist-upgrade 
 
-
 # Install Softwares
-
 sudo npm install -g npm
 
 echo -e \\nCleaning...........................................\\n
