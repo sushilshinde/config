@@ -21,11 +21,11 @@ $ yes | install-softwares
 First time installations 
 
 `
-$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/install-softwares  | sudo -E bash - 
+$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/install-packages  | sudo -E bash - 
 `
 
 Update packages
 
 `
-$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/update-softwares  | sudo -E bash -
+$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/update-packages  | sudo -E bash -
 `
