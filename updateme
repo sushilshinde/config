@@ -6,7 +6,7 @@ sudo apt-get clean
 
 # Add PPAs
 echo -e \\nAdding PPAs.......................................\\n
-sudo add-apt-repository -y ppa:kupfer-team/ppa ppa:webupd8team/java
+sudo add-apt-repository -y ppa:kupfer-team/ppa 
 
 # System update
 echo -e \\nUpdating List......................................\\n
@@ -26,10 +26,6 @@ echo -e \\nInstalling Softwares...............................\\n
 sudo apt-get install -y kupfer plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer chromium-browser python-software-properties 
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-
-sudo apt-get install -y nodejs oracle-java9-installer
-
-sudo apt-get install -y oracle-java9-set-default
 
 sudo npm install -g npm
 
