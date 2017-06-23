@@ -1,6 +1,6 @@
 ## Automate software installations and updatation using bash script
 
-** Method 1: Installing "install-softwares" as system command **
+**Method 1: Installing "install-softwares" as system command**
 
 Step 1 : Download install-softwares
 
@@ -16,7 +16,7 @@ Step 3 : Run command with "yes" pipe
 $ yes | install-softwares
 `
 
-** Method 2: Run bash file from repository **
+**Method 2: Run bash file from repository**
 
 First time installations 
 
