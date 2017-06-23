@@ -1,11 +1,13 @@
 
 #Tomcat 
-echo -e \\nInstalling Tomcat 9......................\\n
+echo -e \\nStarting Tomcat 9 Installation......................\\n
 
 sudo wget -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.zip
 
 sudo mkdir -p ./Installations/Servers
 
+echo -e \\nCopying Tomcat to Installations directory
 sudo unzip -o -q ./Downloads/apache-tomcat-9.0.0.M21.zip -d ./Installations/Servers
 
+echo -e \\nCleaning download
 sudo rm -rf ./Downloads/apache-tomcat-9.0.0.M21.zip
