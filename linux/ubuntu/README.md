@@ -13,4 +13,4 @@ Step 3 : Run command with "yes" pipe
       
 Method 2: Run bash file from repository
 
-      $ yes | sudo curl -sL https://raw.githubusercontent.com/sushilshinde/linux/ubuntu/master/install-softwares  | sudo -E bash - 
+      $ yes | https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/install-softwares  | sudo -E bash - 
