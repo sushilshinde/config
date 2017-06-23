@@ -2,32 +2,35 @@
 
 #run with $ yes | script
 
-echo \nCleaning Cache\n.....................................
-sudo apt-get clean &&
+echo -e \\nCleaning Cache.....................................
+sudo apt-get clean 
 
 # Add PPAs
-echo \nAdding PPAs\n........................................
-sudo add-apt-repository ppa:kupfer-team/ppa 
+echo -e \\nAdding PPAs.......................................\\n
+sudo add-apt-repository -y ppa:kupfer-team/ppa 
 
 # System update
-echo \nUpdating List......................................
+echo -e \\nUpdating List......................................\\n
 sudo apt-get update && 
 
-echo Upgrading packages.................................
+echo -e \\nUpgrading packages.................................\\n
 sudo apt-get -y upgrade && 
 
-echo Updating Distribution..............................
+echo Updating Distribution....................................\\n
 sudo apt-get -y dist-upgrade 
 
 
 # Install Softwares
 
-echo Installing Softwares...............................
+echo -e \\nInstalling Softwares...............................\\n
 
-sudo apt-get install -y kupfer plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer chromium-browser
+sudo apt-get install -y kupfer plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer chromium-browser python-software-properties 
 
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
+sudo apt-get install -y nodejs
 
-echo Cleaning...........................................
+sudo npm install -g npm
+
+echo -e \\nCleaning...........................................\\n
 sudo apt-get -y purge
-
