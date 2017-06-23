@@ -1,6 +1,6 @@
 
 #Tomcat 
-echo -e \\nInstalling Tomcat 9
+echo -e \\nInstalling Tomcat 9......................
 
 sudo wget -N -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.zip
 
