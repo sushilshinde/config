@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #run with $ yes | script
 
 echo -e \\nCleaning Cache.....................................
