@@ -1,0 +1,9 @@
+echo -e \\n Installing NodeJS....................
+
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+
+sudo npm install -g npm
+
+sudo npm install -g @angular/cli
+sudo npm install -g express 
+sudo npm install -g nodemon  
