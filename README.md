@@ -1,4 +1,4 @@
-#General Desktop Configuration Documentation 
+## General Configuration Documentation 
 
 For Ubuntu
 
