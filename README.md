@@ -15,6 +15,7 @@ Step 3 :  Run command with "yes" pipe
           
           $ yes | updateme
 
+
 Method 2: Run bash file from repository 
 
           $ yes | sudo curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/updateme | sudo -E bash -
