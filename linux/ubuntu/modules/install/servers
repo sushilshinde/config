@@ -2,12 +2,10 @@
 #Tomcat 
 echo -e \\nInstalling Tomcat 9......................\\n
 
-ARCHIVE = apache-tomcat-9.0.0.M21.zip
-
-sudo wget -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/$ARCHIVE
+sudo wget -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.zip
 
 sudo mkdir -p ./Installations/Servers
 
-sudo unzip -o ./Downloads/$ARCHIVE -d ./Installations/Servers
+sudo unzip -o ./Downloads/apache-tomcat-9.0.0.M21.zip -d ./Installations/Servers
 
-sudo rm -rf $ARCHIVE
+sudo rm -rf apache-tomcat-9.0.0.M21.zip
