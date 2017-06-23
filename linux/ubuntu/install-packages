@@ -20,29 +20,18 @@ echo Updating Distribution....................................\\n
 sudo apt-get -y dist-upgrade 
 
 
-# Install Softwares
+# Installing Essential Packages
 
-echo -e \\nInstalling Softwares...............................\\n
+sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/base | sudo -E bash -
 
-sudo apt-get install -y kupfer synaptic plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme sublime-text openssh-server numix-icon-theme-circle numix-wallpaper-* 
+#Installing NodeJS
 
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
-
-sudo npm install -g npm
-
-sudo npm install -g @angular/cli
-sudo npm install -g express 
-sudo npm install -g nodemon 
+sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/nodejs | sudo -E bash -
 
 #Installling Servers
 echo -e \\nInstalling Servers...............................\\n
 
 sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/servers | sudo -E bash -
-
-
-
-
-
 
 echo -e \\nCleaning...........................................\\n
 sudo apt-get -y purge
