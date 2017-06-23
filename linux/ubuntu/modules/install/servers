@@ -2,8 +2,8 @@
 #Tomcat 
 echo -e \\nInstalling Tomcat 9
 
-sudo wget -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.zip
+sudo wget -N -P ./Downloads http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.0.M21/bin/apache-tomcat-9.0.0.M21.zip
 
 sudo mkdir -p ./Installations/Servers
 
-sudo unzip ./Downloads/apache-tomcat-9.0.0.M21.zip ./Installations/Servers
+sudo unzip ./Downloads/apache-tomcat-9.0.0.M21.zip -d ./Installations/Servers
