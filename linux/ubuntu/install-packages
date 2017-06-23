@@ -24,7 +24,7 @@ sudo apt-get -y dist-upgrade
 
 echo -e \\nInstalling Softwares...............................\\n
 
-sudo apt-get install -y kupfer synaptic plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme numix-icon-theme-circle numix-wallpaper-* 
+sudo apt-get install -y kupfer synaptic plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme openssh-server numix-icon-theme-circle numix-wallpaper-* 
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
