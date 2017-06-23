@@ -8,4 +8,4 @@ sudo mkdir -p ./Installations/Servers
 
 sudo unzip -o ./Downloads/apache-tomcat-9.0.0.M21.zip -d ./Installations/Servers
 
-sudo rm -rf apache-tomcat-9.0.0.M21.zip
+sudo rm -rf ./Downloads/apache-tomcat-9.0.0.M21.zip
