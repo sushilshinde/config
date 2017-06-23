@@ -1,7 +1,7 @@
 #!/bin/bash
 #run with $ yes | script
 
-echo -e \\nRUNNING PACKAGE UPDATE SCRIPT\n
+echo -e \\nRUNNING PACKAGE UPDATE SCRIPT\\n
 
 echo -e \\nCleaning Cache.....................................
 sudo apt-get clean 
