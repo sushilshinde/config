@@ -1,0 +1,33 @@
+#!/bin/bash
+
+#run with $ yes | script
+
+echo \nCleaning Cache\n.....................................
+sudo apt-get clean &&
+
+# Add PPAs
+echo \nAdding PPAs\n........................................
+sudo add-apt-repository ppa:kupfer-team/ppa 
+
+# System update
+echo \nUpdating List......................................
+sudo apt-get update && 
+
+echo Upgrading packages.................................
+sudo apt-get -y upgrade && 
+
+echo Updating Distribution..............................
+sudo apt-get -y dist-upgrade 
+
+
+# Install Softwares
+
+echo Installing Softwares...............................
+
+sudo apt-get install -y kupfer plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer chromium-browser
+
+
+
+echo Cleaning...........................................
+sudo apt-get -y purge
+
