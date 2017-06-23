@@ -1,13 +1,19 @@
 #General Desktop Configuration Documentation 
 
-Change file permission to executable and make it a command
 
-$chmod +x updateme && sudo cp updateme /usr/bin
+#Using updateme bash script for Ubuntu/Mint updates
 
-Run command (yes for YES/NO prompt)
+Method 1: Installing updateme as system command
 
-$ yes | updateme
+Step 1 :  Download updateme
+Step 2 :  Change file permission to executable and make it a command
+          
+          $chmod +x updateme && sudo cp updateme /usr/bin
 
+Step 3 :  Run command with "yes" pipe 
+          
+          $ yes | updateme
 
+Method 2: Run bash file from repository 
 
-
+          $ yes | sudo curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/updateme | sudo -E bash -
