@@ -2,6 +2,8 @@ echo -e \\n Installing NodeJS....................
 
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 
+sudo apt-get install -y nodejs
+
 sudo npm install -g npm
 
 echo -e \\n Installing Angular 4..................
