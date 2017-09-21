@@ -1,4 +1,4 @@
-http://local.topcoder-dev.com:3000/examples/buttons/
+http://local.topcoder-dev.com:3000/
 
 Topcoder app Git 
 
