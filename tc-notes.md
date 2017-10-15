@@ -1,8 +1,8 @@
 http://local.topcoder-dev.com:3000/
 
 Topcoder app Git 
-
 https://github.com/appirio-tech/topcoder-app
+
 
 **Community App Git** 
 https://github.com/topcoder-platform/community-app/
@@ -12,6 +12,8 @@ Install build tools
 
 Rebuild node SASS
 >$ npm rebuild node-sass
+
+
 
 
 
