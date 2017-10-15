@@ -4,9 +4,16 @@ Topcoder app Git
 
 https://github.com/appirio-tech/topcoder-app
 
-Community App Git 
-
+**Community App Git** 
 https://github.com/topcoder-platform/community-app/
+
+Install build tools
+>sudo apt-get install build-essential 
+
+Rebuild node SASS
+>$ npm rebuild node-sass
+
+
 
 Connect App
 https://github.com/appirio-tech/connect-app
