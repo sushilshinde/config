@@ -1,4 +1,4 @@
-## Create SSH tunneling for local port forwarding to AWS NAT to private instance
+## Create SSH tunnel to AWS NAT
 
 **Port forwarding NAT**
 
