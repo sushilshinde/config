@@ -8,7 +8,7 @@ Port 22
 User ec2-user
 IdentityFile nat.pem
 
-# instancedetailes
+## instancedetailes
 LocalForward localport private-instance-ip:remoteport
 
 
