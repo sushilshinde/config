@@ -2,7 +2,7 @@
 
 1. open /etc/ssh/ssh_config
 2. Enter these lines
-``
+```
 #Host somename
 HostName this-is-nat-host-ip
 Port 22
@@ -11,7 +11,7 @@ IdentityFile nat.pem
 
 ## instancedetailes
 LocalForward localport private-instance-ip:remoteport
-``
+```
 
 
 
