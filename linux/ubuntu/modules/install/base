@@ -1,3 +1,3 @@
 echo -e \\nInstalling Base Packages and Utilities.........................\\n
 
-sudo apt-get install -y git kupfer guake tmux synaptic git plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme sublime-text openssh-server numix-icon-theme-circle numix-wallpaper-* 
+sudo apt-get install -y git kupfer glances guake tmux synaptic git plasma-nm dconf-tools powertop htop compizconfig-settings-manager deluge vlc smplayer gnome-tweak-tool chromium-browser python-software-properties numix-gtk-theme sublime-text openssh-server numix-icon-theme-circle numix-wallpaper-* 
