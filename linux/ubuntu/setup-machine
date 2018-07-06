@@ -1,1 +1,8 @@
+cd ~/
+mkdir projects
+mkdir installations
+
+curl https://raw.githubusercontent.com/sushilshinde/config/master/aliases -o ~/.alisases
+
+yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/install-packages | sudo -E bash -
 
