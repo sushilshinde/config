@@ -5,8 +5,8 @@ echo -e \\nCleaning Cache.....................................
 sudo apt-get clean 
 
 # Add PPAs
-echo -e \\nAdding PPAs.......................................\\n
-sudo add-apt-repository -y ppa:kupfer-team/ppa ppa:numix/ppa ppa:webupd8team/sublime-text-3
+#echo -e \\nAdding PPAs.......................................\\n
+#sudo add-apt-repository -y ppa:kupfer-team/ppa ppa:numix/ppa ppa:webupd8team/sublime-text-3
  
 
 # System update
@@ -28,10 +28,9 @@ sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master
 
 sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/nodejs | sudo -E bash -
 
-#Installling Servers
-echo -e \\nInstalling Servers...............................\\n
-
-sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/servers | sudo -E bash -
+#Installling Extras
+echo -e \\nInstalling Extras...............................\\n
+sudo yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/modules/install/extras | sudo -E bash -
 
 echo -e \\nCleaning...........................................\\n
 sudo apt-get -y purge
