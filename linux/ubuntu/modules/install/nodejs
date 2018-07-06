@@ -1,17 +1,12 @@
-echo -e \\n Installing NodeJS....................
+echo -e \\n Installing NVM....................
 
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
-sudo apt-get install -y nodejs
+echo -e \\n Installing Latest Node....................
 
-sudo npm install -g npm
+nvm install node
 
-echo -e \\n Installing Angular 4..................
-
-sudo npm install -g @angular/cli
-sudo npm install -g express 
-sudo npm install -g nodemon  
-
+nvm use node
 
 
 
