@@ -5,7 +5,7 @@
 First time installations 
 
 `
-$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/install-packages  | sudo -E bash - 
+$ yes | curl -sL https://raw.githubusercontent.com/sushilshinde/config/master/linux/ubuntu/setup-machine  | sudo -E bash - 
 `
 
 Update packages
