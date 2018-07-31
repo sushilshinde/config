@@ -9,7 +9,7 @@ def check():
     for line in urllib2.urlopen(url):
         if(len(line) > 1):
             os.system("git pull && cp empthy_fl.txt fl.txt && git add . && git commit -m 'Resetting' && git push")
-            #os.system("pmset sleepnow")
+            os.system("pmset sleepnow")
 while True:
     time.sleep(10)
     check()
