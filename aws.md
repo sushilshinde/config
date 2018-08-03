@@ -3,7 +3,7 @@
 **Port forwarding NAT**
 
 1. open /etc/ssh/ssh_config
-2. Enter these lines
+. Enter these lines
 ```
 #Host somename
 HostName this-is-nat-host-ip
@@ -14,8 +14,6 @@ IdentityFile nat.pem
 ## instancedetailes
 LocalForward localport private-instance-ip:remoteport
 ```
-
-
 
 **Port forward from DBvisualizer**
 
