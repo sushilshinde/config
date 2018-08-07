@@ -1,3 +1,3 @@
 echo -e \\nInstalling Base Packages and Utilities.........................\\n
 
-sudo apt-get install -y git kupfer apache2-utils glances guake tmux synaptic plasma-nm dconf-tools powertop htop deluge vlc chromium-browser openssh-server
+sudo apt-get install -y git sudo apt-get install kdenlive kupfer apache2-utils glances guake tmux synaptic plasma-nm dconf-tools powertop htop deluge vlc chromium-browser openssh-server
