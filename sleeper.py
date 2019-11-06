@@ -10,6 +10,7 @@ def check():
         print(line)
         if(len(line) > 1):
             os.system("git pull && cp empthy_fl.txt fl.txt && git add . && git commit -m 'Resetting' && git push")
+            os.system("killall -9 'Google Chrome'")
             os.system("pmset sleepnow")
 while True:
     time.sleep(10)
